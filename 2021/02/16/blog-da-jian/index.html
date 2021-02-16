@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="blog">
+    <meta name="keywords" content="blod搭建, 新标签页">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>blog</title>
+    <title>blod搭建 | 新标签页</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 
 
@@ -43,7 +45,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">blog</span>
+                    <span class="logo-span">新标签页</span>
                 </a>
             </div>
             
@@ -142,7 +144,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">blog</div>
+        <div class="logo-name">新标签页</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -310,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">blod搭建</h1>
                 </div>
             </div>
         </div>
@@ -459,113 +461,24 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/justinzwd/article/details/85206640">CLion工程中只能有一个main函数 &amp;&amp;怎么同时编写多个main函数的C文件</a></p>
-<pre><code class="makefile">cmake_minimum_required(VERSION 3.13)
-project(address C)
-
-set (CMAKE_C_STANDARD 90)
-
-add_executable(main01 Chapter-01/1.4.3.c)
-</code></pre>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u012814984/article/details/44751595">Unix环境编程中的apue.h和err_quit、err_sys问题</a></p>
-<h2 id="1-4-文件和目录"><a href="#1-4-文件和目录" class="headerlink" title="1.4 文件和目录"></a>1.4 文件和目录</h2><ul>
-<li>ls<pre><code class="c">#include &quot;../apue.3e/include/apue.h&quot;
-# include&quot;error.c&quot;
-</code></pre>
-</li>
-</ul>
-<p>#define BUFFSIZE 4096</p>
-<p>int main(int argc, char *argv[]) {<br>    int n;<br>    char buf[BUFFSIZE];</p>
-<pre><code>while ((n = read(STDIN_FILENO, buf, BUFFSIZE)) &gt; 0)
-    if (write(STDOUT_FILENO, buf, n) != n)
-        err_sys(&quot;write error&quot;);
-
-if (n &lt; 0)
-    err_sys(&quot;read error&quot;);
-exit(0);
-</code></pre>
-<p>}</p>
-<pre><code>
-## 1.5输入和输出
-### 有缓冲IO
-- 读输入输出
-```c
-#include &quot;../apue.3e/include/apue.h&quot;
-# include&quot;error.c&quot;
-
-#define BUFFSIZE 4096
-
-int main(int argc, char *argv[]) &#123;
-    int n;
-    char buf[BUFFSIZE];
-
-    while ((n = read(STDIN_FILENO, buf, BUFFSIZE)) &gt; 0)
-        if (write(STDOUT_FILENO, buf, n) != n)
-            err_sys(&quot;write error&quot;);
-
-    if (n &lt; 0)
-        err_sys(&quot;read error&quot;);
-    exit(0);
-&#125;
-</code></pre>
+                <p><a target="_blank" rel="noopener" href="https://godweiyang.com/2018/04/13/hexo-blog/">https://godweiyang.com/2018/04/13/hexo-blog/</a><br><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017986794">https://segmentfault.com/a/1190000017986794</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shwee/p/11421156.html">https://www.cnblogs.com/shwee/p/11421156.html</a></p>
 <ul>
-<li><p>重定向: 控制台输入 -&gt; 控制台输出</p>
-<pre><code class="bash">~/go/src/github.com/sonnary/apue/Chapter-01   master ●  gcc -o a 1.5.3.c
-~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a
-1
-1
-2
-2
-^C
-</code></pre>
-</li>
-<li><p>重定向: 控制台输入 -&gt; 文件输出</p>
-<pre><code class="bash">✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a &gt; data
-123
-456
-^C
-✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  cat data
-123
-456
-</code></pre>
-</li>
-<li><p>重定向: 文件输入 -&gt; 文件输出</p>
-<pre><code class="bash">~/go/src/github.com/sonnary/apue/Chapter-01   master ●  cat &gt; infile
-indata
-^C
-✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  cat infile
-indata
-~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a &lt; infile &gt; outfile
-~/go/src/github.com/sonnary/apue/Chapter-01   master ●  cat outfile
-indata
-</code></pre>
-<h3 id="无缓冲IO"><a href="#无缓冲IO" class="headerlink" title="无缓冲IO"></a>无缓冲IO</h3><pre><code class="c">#include &quot;../apue.3e/include/apue.h&quot;
-# include &quot;error.c&quot;
-</code></pre>
-</li>
+<li>按这个配置next主题: <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></li>
+<li>从这里下载next主题: <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/63405693/hexo-cannot-display-next-theme">https://stackoverflow.com/questions/63405693/hexo-cannot-display-next-theme</a><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> c <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 </ul>
-<p>int main(int argc, char *argv[]) {<br>    int c;<br>    while ((c = getc(stdin)) != EOF)<br>        if (putc(c, stdout) == EOF)<br>            err_sys(“output error”);</p>
-<pre><code>if (ferror(stdin))
-    err_sys(&quot;input error&quot;);
-exit(0);
-</code></pre>
-<p>}</p>
-<pre><code>
-## 1.6程序和进程
-- 进程ID
-```c
-#include &quot;../apue.3e/include/apue.h&quot;
-
-int main(int argc, char *argv[]) &#123;
-    printf(&quot;hello world from process ID %ld\n&quot;, (long)getpid());
-    exit(0);
-&#125;
-</code></pre>
 
                 
             </div>
@@ -592,7 +505,7 @@ int main(int argc, char *argv[]) &#123;
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://sonnary.github.io/2021/02/16/c%E8%AF%AD%E8%A8%80/unix%E7%BC%96%E7%A8%8B/">http://sonnary.github.io/2021/02/16/c%E8%AF%AD%E8%A8%80/unix%E7%BC%96%E7%A8%8B/</a>
+                    <a href="http://sonnary.github.io/2021/02/16/blog-da-jian/">http://sonnary.github.io/2021/02/16/blog-da-jian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -799,18 +712,17 @@ int main(int argc, char *argv[]) &#123;
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/02/16/c%E8%AF%AD%E8%A8%80/unix%E7%BC%96%E7%A8%8B/">
+                <a href="/2021/02/16/unix-bian-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="unix programing">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">unix programing</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -820,9 +732,9 @@ int main(int argc, char *argv[]) &#123;
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-16
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-16
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -831,7 +743,6 @@ int main(int argc, char *argv[]) &#123;
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -842,13 +753,13 @@ int main(int argc, char *argv[]) &#123;
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/16/blog%E6%90%AD%E5%BB%BA/">
+                <a href="/2021/02/16/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="文章标题">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">文章标题</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1291,8 +1202,8 @@ $(function () {
         var OriginTitile = document.title,
             st;
         document.addEventListener("visibilitychange", function () {
-            document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
-                "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+            document.hidden ? (document.title = "新标签页", clearTimeout(st)) : (document.title =
+                "新标签页", st = setTimeout(function () {
                     document.title = OriginTitile
                 }, 3e3))
         })

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="文章标题, blog">
+    <meta name="keywords" content="unix programing, 新标签页">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>文章标题 | blog</title>
+    <title>unix programing | 新标签页</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 
 
@@ -43,7 +45,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">blog</span>
+                    <span class="logo-span">新标签页</span>
                 </a>
             </div>
             
@@ -142,7 +144,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">blog</div>
+        <div class="logo-name">新标签页</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -310,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">文章标题</h1>
+                    <h1 class="description center-align post-title">unix programing</h1>
                 </div>
             </div>
         </div>
@@ -459,21 +461,100 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a target="_blank" rel="noopener" href="https://godweiyang.com/2018/04/13/hexo-blog/">https://godweiyang.com/2018/04/13/hexo-blog/</a><br><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017986794">https://segmentfault.com/a/1190000017986794</a></p>
-<ul>
-<li>按这个配置next主题: <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></li>
-<li>从这里下载next主题: <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/63405693/hexo-cannot-display-next-theme">https://stackoverflow.com/questions/63405693/hexo-cannot-display-next-theme</a><pre><code class="c">int main() &#123;
-int a = 1;
-int b = 2;
-int c = a + b;
-&#125;
-</code></pre>
-</li>
+                <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/justinzwd/article/details/85206640">CLion工程中只能有一个main函数 &amp;&amp;怎么同时编写多个main函数的C文件</a></p>
+<pre class="line-numbers language-makefile" data-language="makefile"><code class="language-makefile">cmake_minimum_required<span class="token punctuation">(</span>VERSION 3.13<span class="token punctuation">)</span>
+project<span class="token punctuation">(</span>address C<span class="token punctuation">)</span>
+
+set <span class="token punctuation">(</span>CMAKE_C_STANDARD 90<span class="token punctuation">)</span>
+
+add_executable<span class="token punctuation">(</span>main01 Chapter-01/1.4.3.c<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u012814984/article/details/44751595">Unix环境编程中的apue.h和err_quit、err_sys问题</a></p>
+<h2 id="1-4-文件和目录"><a href="#1-4-文件和目录" class="headerlink" title="1.4 文件和目录"></a>1.4 文件和目录</h2><ul>
+<li>ls<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"../apue.3e/include/apue.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">include</span><span class="token string">"error.c"</span></span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">BUFFSIZE</span> <span class="token expression"><span class="token number">4096</span></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    <span class="token keyword">char</span> buf<span class="token punctuation">[</span>BUFFSIZE<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>n <span class="token operator">=</span> <span class="token function">read</span><span class="token punctuation">(</span>STDIN_FILENO<span class="token punctuation">,</span> buf<span class="token punctuation">,</span> BUFFSIZE<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">write</span><span class="token punctuation">(</span>STDOUT_FILENO<span class="token punctuation">,</span> buf<span class="token punctuation">,</span> n<span class="token punctuation">)</span> <span class="token operator">!=</span> n<span class="token punctuation">)</span>
+            <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"write error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"read error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="1-5输入和输出"><a href="#1-5输入和输出" class="headerlink" title="1.5输入和输出"></a>1.5输入和输出</h2><h3 id="有缓冲IO"><a href="#有缓冲IO" class="headerlink" title="有缓冲IO"></a>有缓冲IO</h3></li>
+<li>读输入输出<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"../apue.3e/include/apue.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">include</span><span class="token string">"error.c"</span></span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">BUFFSIZE</span> <span class="token expression"><span class="token number">4096</span></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
+    <span class="token keyword">char</span> buf<span class="token punctuation">[</span>BUFFSIZE<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>n <span class="token operator">=</span> <span class="token function">read</span><span class="token punctuation">(</span>STDIN_FILENO<span class="token punctuation">,</span> buf<span class="token punctuation">,</span> BUFFSIZE<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">write</span><span class="token punctuation">(</span>STDOUT_FILENO<span class="token punctuation">,</span> buf<span class="token punctuation">,</span> n<span class="token punctuation">)</span> <span class="token operator">!=</span> n<span class="token punctuation">)</span>
+            <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"write error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"read error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>重定向: 控制台输入 -&gt; 控制台输出<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  gcc -o a <span class="token number">1.5</span>.3.c
+ ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a
+<span class="token number">1</span>
+<span class="token number">1</span>
+<span class="token number">2</span>
+<span class="token number">2</span>
+^C<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>重定向: 控制台输入 -&gt; 文件输出<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> ✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a <span class="token operator">&gt;</span> data
+<span class="token number">123</span>
+<span class="token number">456</span>
+^C
+ ✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  <span class="token function">cat</span> data
+<span class="token number">123</span>
+<span class="token number">456</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>重定向: 文件输入 -&gt; 文件输出<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  <span class="token function">cat</span> <span class="token operator">&gt;</span> infile
+indata
+^C
+ ✘  ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  <span class="token function">cat</span> infile
+indata
+ ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  ./a <span class="token operator">&lt;</span> infile <span class="token operator">&gt;</span> outfile
+ ~/go/src/github.com/sonnary/apue/Chapter-01   master ●  <span class="token function">cat</span> outfile
+indata<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="无缓冲IO"><a href="#无缓冲IO" class="headerlink" title="无缓冲IO"></a>无缓冲IO</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"../apue.3e/include/apue.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">include</span> <span class="token string">"error.c"</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> c<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>c <span class="token operator">=</span> <span class="token function">getc</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token constant">EOF</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">putc</span><span class="token punctuation">(</span>c<span class="token punctuation">,</span> <span class="token constant">stdout</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token constant">EOF</span><span class="token punctuation">)</span>
+            <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"output error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">ferror</span><span class="token punctuation">(</span><span class="token constant">stdin</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token function">err_sys</span><span class="token punctuation">(</span><span class="token string">"input error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="1-6程序和进程"><a href="#1-6程序和进程" class="headerlink" title="1.6程序和进程"></a>1.6程序和进程</h2></li>
+<li>进程ID<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"../apue.3e/include/apue.h"</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world from process ID %ld\n"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">long</span><span class="token punctuation">)</span><span class="token function">getpid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 </ul>
 
                 
@@ -501,7 +582,7 @@ int c = a + b;
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://sonnary.github.io/2021/02/16/blog%E6%90%AD%E5%BB%BA/">http://sonnary.github.io/2021/02/16/blog%E6%90%AD%E5%BB%BA/</a>
+                    <a href="http://sonnary.github.io/2021/02/16/unix-bian-cheng/">http://sonnary.github.io/2021/02/16/unix-bian-cheng/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -708,17 +789,18 @@ int c = a + b;
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/02/16/c%E8%AF%AD%E8%A8%80/unix%E7%BC%96%E7%A8%8B/">
+                <a href="/2021/02/16/unix-bian-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="unix programing">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">unix programing</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -728,9 +810,9 @@ int c = a + b;
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -739,6 +821,7 @@ int c = a + b;
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -749,13 +832,13 @@ int c = a + b;
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/16/hello-world/">
+                <a href="/2021/02/16/blog-da-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="blod搭建">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">blod搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1198,8 +1281,8 @@ $(function () {
         var OriginTitile = document.title,
             st;
         document.addEventListener("visibilitychange", function () {
-            document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
-                "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+            document.hidden ? (document.title = "新标签页", clearTimeout(st)) : (document.title =
+                "新标签页", st = setTimeout(function () {
                     document.title = OriginTitile
                 }, 3e3))
         })
